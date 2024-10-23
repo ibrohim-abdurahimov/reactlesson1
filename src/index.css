@@ -29,5 +29,6 @@ img{
 }
 .bg__img{
   background: url(assets/bg\ img.png) no-repeat center;
+  background-size: cover;
   color: #fff;
 }
