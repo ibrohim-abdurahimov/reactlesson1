@@ -49,3 +49,18 @@
 .recent__card_user.top{
     margin-top: 48px;
 }
+@media (max-width:912px) {
+    .recent__wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    img{
+        width: 100%;
+    }
+    
+}
+@media (max-width:611px) {
+    .recent__wrapper{
+        grid-template-columns: 1fr;
+    }
+    
+}
