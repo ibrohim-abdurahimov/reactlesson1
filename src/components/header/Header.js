@@ -1,5 +1,10 @@
 import React from 'react'
 import "./Header.css"
+import { IoSearch } from "react-icons/io5";
+import { FaBars } from "react-icons/fa6";
+import { FaUser } from "react-icons/fa6";
+import { GrCart } from "react-icons/gr";
+
 
 function Header() {
   return (
@@ -29,6 +34,15 @@ function Header() {
               </a>
             </li>
           </ul>
+          <div className='menu'>
+            <div className="menu__icon">
+              <IoSearch />
+              <FaUser />
+              <GrCart />
+              <FaBars />
+            </div>
+          </div>
+
         </nav>
       </div>
     </header>

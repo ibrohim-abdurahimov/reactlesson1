@@ -16,3 +16,19 @@
     padding: 10px 20px;
     font-size: 12px;
 }
+.menu{
+    display: none;
+}
+.menu__icon{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width:550px) {
+    .navbar__collection{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    
+}
