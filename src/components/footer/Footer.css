@@ -44,3 +44,22 @@
 .navbar__item{
     color: #FFFFFF99;
 }
+@media (max-width:550px) {
+    .footer__email{
+        display: block;
+    }
+    input{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    button{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .footer__btn{
+        margin-top: 10px;
+    }
+    
+}
