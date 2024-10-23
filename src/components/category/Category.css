@@ -1,0 +1,15 @@
+.category{
+    margin-top: 9px;
+}
+.category__collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.category__item{
+    padding: 13px 46px;
+    color: #768088;
+    font-family: Lora;
+    font-size: 14px;
+}

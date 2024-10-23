@@ -1,0 +1,29 @@
+.hero{
+    padding-top: 100px;
+    padding-bottom: 157px;
+}
+.hero__title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Lora;
+    letter-spacing: 2px;
+}
+.hero__desc{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: Oxygen;
+    color: #FFFFFFA1;
+}
+.hero__btn button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 13px;
+    font-family: Oxygen;
+    background-color: #DD783F;
+    border-radius: 3px;
+    padding: 12px 30px;
+    color: #fff;
+    border: none;
+}

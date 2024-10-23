@@ -1,0 +1,18 @@
+.navbar{
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo{
+    font-size: 26px;
+    font-family: Lora;
+}
+.navbar__collection{
+    display: flex;
+    font-family: Oxygen;
+}
+.navbar__item{
+    padding: 10px 20px;
+    font-size: 12px;
+}
